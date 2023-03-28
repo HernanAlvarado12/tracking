@@ -808,16 +808,16 @@ html {
     height: calc(100vh - 10rem);
   }
 
+  .l\:w-85 {
+    width: 85%;
+  }
+
   .l\:w-\[110\%\] {
     width: 110%;
   }
 
   .l\:w-full {
     width: 100%;
-  }
-
-  .l\:w-85 {
-    width: 85%;
   }
 
   .l\:max-w-screen-xl {

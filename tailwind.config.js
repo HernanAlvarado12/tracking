@@ -14,6 +14,7 @@ module.exports = {
         'l-main': 'calc(100vh - 10rem)'
       },
       spacing: {
+        '0.1': '1px',
         '0.5': '0.5rem',
         '1': '1rem',
         '1.5': '1.5rem',

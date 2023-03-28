@@ -26,15 +26,27 @@
     <body class ="overflow-hidden">
 
         <header>
-            <nav class ="w-90 h-10 mx-auto flex items-center justify-between relative l:max-w-screen-xl">
+            <nav class ="w-90 h-10 mx-auto flex items-center justify-between relative l:max-w-screen-xl l:w-85">
                 <img class ="select-none" src ="./assets/logo.svg" alt ="logo icon" draggable ="false" loading ="lazy">
-                <img class ="cursor-pointer select-none" id ="iconMenu" src ="./assets/hamburger.svg" alt ="menu icon" draggable ="false" loading ="lazy">
-                <menu class ="w-full py-3 hidden absolute left-0 top-10 z-10 rounded-sm bg-white" id ="navMenu">
-                    <ul class ="flex items-center flex-col gap-y-2 text-md font-bold tracking-widest uppercase">
-                        <li><a class ="" href ="#">product</a></li>
-                        <li><a class ="" href ="#">features</a></li>
-                        <li><a class ="" href ="#">pricing</a></li>
-                        <li class ="last:mt-3 last:text-blue-200"><a class ="" href ="#">login</a></li>
+                <img class ="cursor-pointer select-none l:hidden" id ="iconMenu" src ="./assets/hamburger.svg" alt ="menu icon" draggable ="false" loading ="lazy">
+                <menu class ="w-full py-3 hidden absolute left-0 top-10 z-10 rounded-sm bg-white l:w-auto l:py-0 l:block l:relative l:top-0" id ="navMenu">
+                    <ul class ="flex items-center flex-col gap-y-2 text-md font-bold tracking-widest uppercase l:gap-x-3 l:flex-row l:text-sm">
+                        <li class ="relative group">
+                            <a class ="" href ="#">product</a>
+                            <span class ="w-full h-0.1 absolute bottom-0 left-0 origin-left scale-x-0 transition-all duration-700 bg-blue-300 group-hover:scale-x-105 group-hover:duration-700"></span>
+                        </li>
+                        <li class ="relative group">
+                            <a class ="" href ="#">features</a>
+                            <span class ="w-full h-0.1 absolute bottom-0 left-0 origin-left scale-x-0 transition-all duration-700 bg-blue-300 group-hover:scale-x-105 group-hover:duration-700"></span>
+                        </li>
+                        <li class ="relative group">
+                            <a class ="" href ="#">pricing</a>
+                            <span class ="w-full h-0.1 absolute bottom-0 left-0 origin-left scale-x-0 transition-all duration-700 bg-blue-300 group-hover:scale-x-105 group-hover:duration-700"></span>
+                        </li>
+                        <li class ="relative group last:mt-3 last:text-blue-200 l:last:mt-0 l:last:ml-4">
+                            <a class ="" href ="#">login</a>
+                            <span class ="w-full h-0.1 absolute bottom-0 left-0 origin-left scale-x-0 transition-all duration-700 bg-blue-200 group-hover:scale-x-105 group-hover:duration-700"></span>
+                        </li>
                     </ul>
                 </menu>
             </nav>

@@ -29,9 +29,13 @@ module.exports = {
         'xs': '1.4rem',
         'sm': '1.6rem',
         'md': '1.8rem',
+        'm': '2.1rem',
         'base': '2.4rem',
         'lg': '3.2rem',
         'xl': '4.2rem'
+      },
+      inset: {
+        '10': '10%'
       },
       letterSpacing: {
         widest: '0.2rem'

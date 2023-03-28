@@ -1,0 +1,28 @@
+{
+  "name": "projecttrackingtailwind",
+  "version": "1.0.0",
+  "description": "project for better my skills",
+  "main": "model.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./css/mobile.css -o ./css/tailwind.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HernanAlvarado12/tracking.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "tailwindcss",
+    "javascript"
+  ],
+  "author": "Hernan Alvarado <hernanvid123@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HernanAlvarado12/tracking/issues"
+  },
+  "homepage": "https://github.com/HernanAlvarado12/tracking#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.0"
+  }
+}

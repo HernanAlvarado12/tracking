@@ -539,12 +539,12 @@ html {
   left: 0px;
 }
 
-.left-1 {
-  left: 1rem;
+.left-\[10\%\] {
+  left: 10%;
 }
 
 .top-10 {
-  top: 10%;
+  top: 10rem;
 }
 
 .z-10 {
@@ -570,10 +570,6 @@ html {
 
 .mt-1 {
   margin-top: 1rem;
-}
-
-.mt-8 {
-  margin-top: 8rem;
 }
 
 .mt-6 {
@@ -750,4 +746,10 @@ html {
 .last\:text-blue-200:last-child {
   --tw-text-opacity: 1;
   color: hsl(230 11% 40% / var(--tw-text-opacity));
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .hover\:opacity-80:hover {
+    opacity: 0.8;
+  }
 }

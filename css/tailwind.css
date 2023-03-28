@@ -596,6 +596,10 @@ html {
   height: 4rem;
 }
 
+.max-h-\[40rem\] {
+  max-height: 40rem;
+}
+
 .w-90 {
   width: 90%;
 }
@@ -604,12 +608,22 @@ html {
   width: 100%;
 }
 
+.max-w-md {
+  max-width: 28rem;
+}
+
 .flex-1 {
   flex: 1 1 0%;
 }
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.select-none {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 
 .flex-col {
@@ -673,6 +687,10 @@ html {
 .py-3 {
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .font-barlow {
@@ -751,5 +769,71 @@ html {
 @media (hover: hover) and (pointer: fine) {
   .hover\:opacity-80:hover {
     opacity: 0.8;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:left-\[15\%\] {
+    left: 15%;
+  }
+}
+
+@media (min-width: 900px) {
+  .l\:left-0 {
+    left: 0px;
+  }
+
+  .l\:order-1 {
+    order: 1;
+  }
+
+  .l\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .l\:mb-3 {
+    margin-bottom: 3rem;
+  }
+
+  .l\:mb-6 {
+    margin-bottom: 6rem;
+  }
+
+  .l\:grid {
+    display: grid;
+  }
+
+  .l\:h-l-main {
+    height: calc(100vh - 10rem);
+  }
+
+  .l\:w-85 {
+    width: 85%;
+  }
+
+  .l\:w-\[110\%\] {
+    width: 110%;
+  }
+
+  .l\:w-full {
+    width: 100%;
+  }
+
+  .l\:max-w-screen-xl {
+    max-width: 1280px;
+  }
+
+  .l\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .l\:items-center {
+    align-items: center;
+  }
+
+  .l\:gap-x-4 {
+    -moz-column-gap: 4rem;
+         column-gap: 4rem;
   }
 }

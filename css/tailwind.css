@@ -535,12 +535,16 @@ html {
   position: relative;
 }
 
+.left-0 {
+  left: 0px;
+}
+
 .top-10 {
   top: 10rem;
 }
 
-.left-0 {
-  left: 0px;
+.z-10 {
+  z-index: 10;
 }
 
 .mx-auto {
@@ -592,18 +596,9 @@ html {
   border-radius: 0.6rem;
 }
 
-.bg-red {
-  --tw-bg-opacity: 1;
-  background-color: hsl(0 100% 68% / var(--tw-bg-opacity));
-}
-
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.p-2 {
-  padding: 2rem;
 }
 
 .py-3 {
@@ -625,14 +620,6 @@ html {
 
 .tracking-widest {
   letter-spacing: 0.2rem;
-}
-
-.last\:mt-4:last-child {
-  margin-top: 4rem;
-}
-
-.last\:mt-6:last-child {
-  margin-top: 6rem;
 }
 
 .last\:mt-3:last-child {

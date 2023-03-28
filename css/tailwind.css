@@ -535,17 +535,49 @@ html {
   position: relative;
 }
 
-.top-10 {
-  top: 10rem;
-}
-
 .left-0 {
   left: 0px;
+}
+
+.left-1 {
+  left: 1rem;
+}
+
+.top-10 {
+  top: 10%;
+}
+
+.left-10 {
+  left: 10%;
 }
 
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mb-1\.5 {
+  margin-bottom: 1.5rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mt-8 {
+  margin-top: 8rem;
+}
+
+.mt-6 {
+  margin-top: 6rem;
 }
 
 .flex {
@@ -556,8 +588,16 @@ html {
   display: none;
 }
 
+.aspect-video {
+  aspect-ratio: 16 / 9;
+}
+
 .h-10 {
   height: 10rem;
+}
+
+.h-4 {
+  height: 4rem;
 }
 
 .w-90 {
@@ -566,6 +606,10 @@ html {
 
 .w-full {
   width: 100%;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
 }
 
 .cursor-pointer {
@@ -584,12 +628,30 @@ html {
   justify-content: space-between;
 }
 
+.gap-x-2 {
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+}
+
 .gap-y-2 {
   row-gap: 2rem;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
 .rounded-sm {
   border-radius: 0.6rem;
+}
+
+.bg-blue-300 {
+  --tw-bg-opacity: 1;
+  background-color: hsl(230 29% 20% / var(--tw-bg-opacity));
 }
 
 .bg-red {
@@ -602,8 +664,14 @@ html {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.p-2 {
-  padding: 2rem;
+.px-1 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.px-1\.5 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .py-3 {
@@ -611,28 +679,68 @@ html {
   padding-bottom: 3rem;
 }
 
+.font-barlow {
+  font-family: 'Barlow', sans-serif;
+}
+
+.text-m {
+  font-size: 2.1rem;
+}
+
 .text-md {
   font-size: 1.8rem;
+}
+
+.text-sm {
+  font-size: 1.6rem;
+}
+
+.text-xl {
+  font-size: 4.2rem;
 }
 
 .font-bold {
   font-weight: 700;
 }
 
+.font-normal {
+  font-weight: 400;
+}
+
 .uppercase {
   text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
 }
 
 .tracking-widest {
   letter-spacing: 0.2rem;
 }
 
-.last\:mt-4:last-child {
-  margin-top: 4rem;
+.text-blue-100 {
+  --tw-text-opacity: 1;
+  color: hsl(231 7% 65% / var(--tw-text-opacity));
 }
 
-.last\:mt-6:last-child {
-  margin-top: 6rem;
+.text-blue-200 {
+  --tw-text-opacity: 1;
+  color: hsl(230 11% 40% / var(--tw-text-opacity));
+}
+
+.text-blue-300 {
+  --tw-text-opacity: 1;
+  color: hsl(230 29% 20% / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.first-letter\:uppercase::first-letter {
+  text-transform: uppercase;
 }
 
 .last\:mt-3:last-child {

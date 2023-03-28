@@ -23,12 +23,12 @@
         <link rel ="stylesheet" href ="./css/tailwind.css">
     </head>
 
-    <body>
+    <body class ="overflow-hidden">
 
         <header>
-            <nav class ="w-90 h-10 mx-auto flex items-center justify-between relative">
-                <img src ="./assets/logo.svg" alt ="logo icon">
-                <img class ="cursor-pointer" id ="iconMenu" src ="./assets/hamburger.svg" alt ="menu icon">
+            <nav class ="w-90 h-10 mx-auto flex items-center justify-between relative l:max-w-screen-xl">
+                <img class ="select-none" src ="./assets/logo.svg" alt ="logo icon" draggable ="false" loading ="lazy">
+                <img class ="cursor-pointer select-none" id ="iconMenu" src ="./assets/hamburger.svg" alt ="menu icon" draggable ="false" loading ="lazy">
                 <menu class ="w-full py-3 hidden absolute left-0 top-10 z-10 rounded-sm bg-white" id ="navMenu">
                     <ul class ="flex items-center flex-col gap-y-2 text-md font-bold tracking-widest uppercase">
                         <li><a class ="" href ="#">product</a></li>
@@ -40,22 +40,22 @@
             </nav>
         </header>
 
-        <main>
-            <figure class ="w-full overflow-hidden">
-                <img class ="w-full aspect-video relative left-[10%]" src ="./assets/devices.svg" alt ="devices picture">
+        <main class ="l:w-85 l:h-l-main l:max-w-screen-xl l:mx-auto l:grid l:items-center l:grid-cols-2 l:gap-x-4">
+            <figure class ="w-full overflow-hidden l:w-[110%] l:order-1">
+                <img class ="w-full max-h-[40rem] aspect-video select-none relative left-[10%] md:left-[15%] l:left-0" src ="./assets/devices.svg" alt ="devices picture" draggable ="false" loading ="lazy">
             </figure>
-            <section class ="w-90 mx-auto mt-6 font-normal uppercase">
+            <section class ="w-90 mx-auto mt-6 font-normal uppercase l:w-full">
                 <div class ="flex items-center gap-x-2">
                     <h2 class ="px-1.5 text-white text-sm rounded-full bg-blue-300">new</h2>
                     <p class ="text-blue-100 text-md font-barlow">monograph dashboard</p>
                 </div>
                 <article>
-                    <h1 class ="mt-1 mb-1.5 text-blue-300 text-xl font-bold">Powerful insights into your team</h1>
-                    <p class ="mb-2 text-blue-200 text-m font-barlow lowercase first-letter:uppercase">Project planning and time tracking for agile teams</p>
+                    <h1 class ="mt-1 mb-1.5 text-blue-300 text-xl font-bold l:mb-3">Powerful insights into your team</h1>
+                    <p class ="mb-2 text-blue-200 text-m font-barlow lowercase first-letter:uppercase l:mb-6">Project planning and time tracking for agile teams</p>
                 </article>
                 <div class ="flex items-center gap-x-2">
-                    <button class ="flex-1 h-4 text-white text-md tracking-widest font-bold uppercase rounded-sm bg-red hover:opacity-80">Shedule a demo</button>
-                    <p class ="flex-1 text-blue-100 text-md font-barlow">to see a preview</p>
+                    <button class ="flex-1 max-w-md h-4 text-white text-md tracking-widest font-bold uppercase rounded-sm bg-red hover:opacity-80">Shedule a demo</button>
+                    <p class ="flex-1 max-w-md text-blue-100 text-md font-barlow text-center">to see a preview</p>
                 </div>
             </section>
         </main>

@@ -7,6 +7,12 @@ module.exports = {
   },
   theme: {
     extend: {
+      screens: {
+        'l': '900px'
+      },
+      height: {
+        'l-main': 'calc(100vh - 10rem)'
+      },
       spacing: {
         '0.5': '0.5rem',
         '1': '1rem',

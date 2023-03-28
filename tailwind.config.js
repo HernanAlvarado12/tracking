@@ -33,6 +33,9 @@ module.exports = {
         'lg': '3.2rem',
         'xl': '4.2rem'
       },
+      letterSpacing: {
+        widest: '0.2rem'
+      },
       borderRadius: {
         'sm': '0.6rem',
         'md': '0.8rem',
